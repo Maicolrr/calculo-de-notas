@@ -1,0 +1,99 @@
+body{
+    width: 90vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 90vw;
+    height:10vh;
+    background-color: #ff0303;
+    border-radius: 15px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 170px;
+} 
+#color{
+    justify-content: center;
+    width: 60px;
+    height: 30px;
+    margin:35px 0 0 195px;
+}
+.main{
+    width:35vw;
+    height:50vh;
+    background-image: url(imagenes/Captura\ de\ pantalla\ 2022-04-26\ 155608.png);
+    background-size:cover;
+    border:solid 1px black;
+    margin-top: 5rem;
+    margin-left: 200px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main> button{
+    width: 80px;
+    height: 50px;
+    border:double 5px;
+    /*margin: 50px;*/
+}
+.section1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section1> input{
+
+    width: 105px;
+    height: 25px;
+}
+
+input{
+    margin-right: 3px;
+}
+
+.section2> hr{
+    width: 35vw;
+    height: 0.5vh;
+    background-color: black;
+}
+
+.section2> p{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+    
+
+}
+
+footer{
+    width: 90vw;
+    height:20vh;
+    background-color: #ff0303;
+    border-radius: 15px;
+    margin-top: 75px;
+    margin-left: 170px; 
+}
+
+footer> h2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer> p{
+    color: #000000;
+    font-size: 18px;
+    display:flex;
+    flex-direction: column;
+    align-items: row;
+    margin: 0 120px 10px 120px; 
+}
